@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "482850209642",
+    "project_id": "lokvoice",
+    "storage_bucket": "lokvoice.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482850209642:android:89b5b53d3f07cd22f5ef13",
+        "android_client_info": {
+          "package_name": "com.lokvoice.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482850209642-412q6abtrgfhsqiejkpddj497ac4hh1t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lokvoice.app",
+            "certificate_hash": "a23aad0c19de1db0233981fb7a0d3342d471e90e"
+          }
+        },
+        {
+          "client_id": "482850209642-9fu0fa5n1eil5fjqgsk9eto60cf9kioi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHEPZTZXKsNsuI8LMIB81ypsURHX55B_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482850209642-9fu0fa5n1eil5fjqgsk9eto60cf9kioi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "482850209642-fmqmlnbbenopt02d2vrc0r6n2fgafnv3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.lokvoice"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

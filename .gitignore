@@ -1,0 +1,81 @@
+# -------------------------
+# Flutter / Dart
+# -------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+build/
+coverage/
+# If you generate code with build_runner / freezed / protobuf, etc.
+**/*.g.dart
+**/*.freezed.dart
+**/*.mocks.dart
+**/*.pb.dart
+**/*.pbenum.dart
+**/*.pbjson.dart
+**/*.pbgrpc.dart
+**/*.graphql.dart
+**/*.swagger.dart
+
+# -------------------------
+# Android
+# -------------------------
+/android/.gradle/
+/android/captures/
+/android/local.properties
+/android/key.properties
+/android/**/gradleLocal.properties
+# Keystores (DO NOT COMMIT)
+/android/app/**/*.keystore
+/android/app/**/*.jks
+/android/app/**/upload-keystore.jks
+# Build outputs
+/android/app/**/release/
+android/app/build/
+android/build/
+# Artifacts (keep CI outputs out of repo)
+**/outputs/apk/release/*.apk
+**/outputs/bundle/release/*.aab
+# ProGuard / R8 mapping
+**/outputs/mapping/**/mapping.txt
+# Crashlytics logs
+**/outputs/logs/
+
+# (Optional) Firebase – ignore if you don't want to commit it
+# Comment this out if you intentionally commit your config.
+/android/app/google-services.json
+
+# -------------------------
+# iOS / macOS (harmless to ignore even if Android-only)
+# -------------------------
+/ios/Pods/
+/ios/.symlinks/
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/Generated.xcconfig
+/macos/Flutter/GeneratedPluginRegistrant.swift
+# (Optional) Firebase iOS config
+/ios/Runner/GoogleService-Info.plist
+
+# -------------------------
+# IDE / Tooling
+# -------------------------
+.vscode/
+.idea/
+*.iml
+
+# -------------------------
+# Env / Secrets
+# -------------------------
+.env
+.env.*
+**/*.env
+supabase/.temp
+
+# -------------------------
+# OS junk
+# -------------------------
+.DS_Store
+Thumbs.db
